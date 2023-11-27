@@ -1,5 +1,5 @@
 resource "ibm_cr_namespace" "cr_namespace" {
-  name = "suranc-example-ns"
+  name = var.bucket_namespace
 }
 
 output "namespace" {
